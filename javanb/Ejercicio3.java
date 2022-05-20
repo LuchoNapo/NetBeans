@@ -18,11 +18,15 @@ public class Ejercicio3 {
      */
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
-        int queso = leer.nextInt();
+        System.out.println("Ingrese un numero");
+        double num1 = leer.nextDouble();
+        Operaciones(num1);
         
     }
-    public static void Queso(){
-        String quesoo = "Hola como estas";
-        
+    public static void Operaciones(double num1){
+        double raiz = Math.sqrt(num1);
+        System.out.println("El Doble de "+num1+" es: "+num1*2);
+        System.out.println("El Triple de "+num1+" es: "+num1*3 );
+        System.out.println("La Raiz de "+num1+" es: "+raiz);
     }
 }
