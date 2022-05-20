@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Lucho Napo
  */
-public class Ejercicio3 {
+public class Doble_Triple_Raiz {
 
     /**
      * @param args the command line arguments
@@ -21,12 +21,13 @@ public class Ejercicio3 {
         System.out.println("Ingrese un numero");
         double num1 = leer.nextDouble();
         Operaciones(num1);
-        
+
     }
-    public static void Operaciones(double num1){
+
+    public static void Operaciones(double num1) {
         double raiz = Math.sqrt(num1);
-        System.out.println("El Doble de "+num1+" es: "+num1*2);
-        System.out.println("El Triple de "+num1+" es: "+num1*3 );
-        System.out.println("La Raiz de "+num1+" es: "+raiz);
+        System.out.println("El Doble de " + num1 + " es: " + num1 * 2);
+        System.out.println("El Triple de " + num1 + " es: " + num1 * 3);
+        System.out.println("La Raiz de " + num1 + " es: " + raiz);
     }
 }
