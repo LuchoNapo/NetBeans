@@ -51,7 +51,7 @@ public class Menu_Swtich {
                 case 1:
                     System.out.println("La SUMA de los numeros es: " + (num1 + num2));
                     System.out.println("Desea realizar otra operacion?");
-                    System.out.println("1=Si/2=No");
+                    System.out.println("S=Si/N=No");
                     char sal = leer.next().charAt(0);
                     if (sal == 's') {
                         System.out.println("Volviendo al menu");
@@ -63,7 +63,7 @@ public class Menu_Swtich {
                 case 2:
                     System.out.println("La RESTA de los numeros es: " + (num1 - num2));
                     System.out.println("Desea realizar otra operacion?");
-                    System.out.println("1=Si/2=No");
+                    System.out.println("S=Si/N=No");
                     sal = leer.next().charAt(0);
                     if (sal == 's') {
                         System.out.println("Volviendo al menu");
@@ -77,7 +77,7 @@ public class Menu_Swtich {
                 case 3:
                     System.out.println("La MULTIPLICACION de los numeros es :" + (num1 * num2));
                     System.out.println("Desea realizar otra operacion?");
-                    System.out.println("1=Si/2=No");
+                    System.out.println("S=Si/N=No");
                     sal = leer.next().charAt(0);
                     if (sal == 's') {
                         System.out.println("Volviendo al menu");
@@ -90,7 +90,7 @@ public class Menu_Swtich {
                 case 4:
                     System.out.println("La DIVISION de los numeros es: " + (num1 / num2));
                     System.out.println("Desea realizar otra operacion?");
-                    System.out.println("1=Si/2=No");
+                    System.out.println("S=Si/N=No");
                     sal = leer.next().charAt(0);
                     if (sal == 's') {
                         System.out.println("Volviendo al menu");
