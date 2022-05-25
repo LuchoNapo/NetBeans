@@ -34,6 +34,7 @@ public class Vector_ContarCifras {
             int numero = dado.nextInt(99999);
             vector[i] = numero;
         }
+        
     }
 
     public static void BuscarValores(int tamaño, int vector[]) {
