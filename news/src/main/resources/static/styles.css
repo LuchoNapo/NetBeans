@@ -1,0 +1,68 @@
+header {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    text-align: left;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    color: white;
+    text-align: center;
+}
+
+.nav-link {
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media (hover:hover) {
+    .nav-link:hover {
+        color: rgb(185, 179, 179);
+
+    }
+}
+
+#noticias {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+section {
+    background-color: rgb(119, 116, 116);
+    padding: 272px;
+    border-radius: 5%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    background: linear-gradient(to right, #3a3b3ba8, #373e46e1);
+    position: relative;
+}
+
+body {
+    background-color: gray;
+    color: white;
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#formulario {
+    position: absolute;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    align-items: flex-start;
+    top: 10px;
+    left: 0;
+
+}
